@@ -1,11 +1,22 @@
 import axios, { AxiosResponse } from 'axios';
-import { GoogleGenerativeAI, GenerativeModel } from '@google/generative-ai';
+import * as dotenv from 'dotenv';
 import {
-  StandingEntry,
-  Match,
-  FormattedStanding,
-  PredictionResponse
+    FormattedStanding,
+    Match,
+    PredictionResponse,
+    StandingEntry
 } from './types';
+
+// Load environment variables from .env file
+dotenv.config();
+
+// Validate required environment variables
+const requiredEnvVars = ['FOOTBALL_API_KEY', 'GOOGLE_API_KEY'];
+for (const envVar of requiredEnvVars) {
+    if (!process.env[envVar]) {
+        throw new Error(`Missing required environment variable: ${envVar}`);
+    }
+}
 
 const FOOTBALL_API_BASE = 'http://api.football-data.org/v4';
 const PREMIER_LEAGUE_ID = 'PL';
@@ -29,6 +40,17 @@ async function getStandings(): Promise<StandingEntry[]> {
 
 async function getFixtures(): Promise<Match[]> {
     try {
+        // Get today's date and date 10 days from now
+        const today = new Date();
+        const tenDaysFromNow = new Date(today);
+        tenDaysFromNow.setDate(today.getDate() + 10);
+
+        // Format dates to YYYY-MM-DD as required by the API
+        const dateFrom = today.toISOString().split('T')[0];
+        const dateTo = tenDaysFromNow.toISOString().split('T')[0];
+
+        console.log(`📅 Fetching fixtures from ${dateFrom} to ${dateTo}`);
+
         const response: AxiosResponse = await axios.get(
             `${FOOTBALL_API_BASE}/competitions/${PREMIER_LEAGUE_ID}/matches`,
             {
@@ -36,12 +58,18 @@ async function getFixtures(): Promise<Match[]> {
                     'X-Auth-Token': process.env.FOOTBALL_API_KEY
                 },
                 params: {
-                    status: 'SCHEDULED',
-                    limit: 10
+                    dateFrom,
+                    dateTo,
+                    status: 'SCHEDULED'
                 }
             }
         );
-        return response.data.matches;
+
+        if (!response.data.matches || response.data.matches.length === 0) {
+            console.warn('⚠️ No fixtures found in the specified date range');
+        }
+
+        return response.data.matches || [];
     } catch (error) {
         console.error('Error fetching fixtures:', error instanceof Error ? error.message : 'Unknown error');
         throw error;
@@ -123,35 +151,77 @@ Print in JSON format as shown in the example below:
 }
 
 async function getPredictions(prompt: string): Promise<PredictionResponse> {
-    const genAI: GoogleGenerativeAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY!);
-    const model: GenerativeModel = genAI.getGenerativeModel({ model: "gemini-pro" });
-    
-    const result = await model.generateContent(prompt);
-    const predictions = result.response.text();
-    return JSON.parse(predictions) as PredictionResponse;
+    try {
+        console.log('🔄 Preparing AI request...');
+        
+        const response = await axios.post(
+            `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.GOOGLE_API_KEY}`,
+            {
+                contents: [{
+                    parts: [{
+                        text: prompt
+                    }]
+                }],
+                generationConfig: {
+                    temperature: 0.7,
+                    topK: 1,
+                    topP: 1,
+                    maxOutputTokens: 2048,
+                }
+            }
+        );
+
+        if (response.data.candidates && response.data.candidates[0].content) {
+            const predictions = response.data.candidates[0].content.parts[0].text;
+            return predictions as PredictionResponse;
+        } else {
+            throw new Error('Invalid response format from Gemini API');
+        }
+    } catch (error) {
+        console.error('❌ Error generating AI prediction:', error instanceof Error ? error.message : 'Unknown error');
+        if (axios.isAxiosError(error)) {
+            console.error('API Response:', error.response?.data);
+        }
+        throw error;
+    }
 }
 
 async function main(): Promise<void> {
     try {
+        console.log('🚀 Starting PLAI predictions...');
+        
         // Get current standings and fixtures
+        console.log('📊 Fetching Premier League standings...');
         const standings = await getStandings();
+        console.log('✅ Standings fetched successfully!');
+        
+        console.log('📅 Fetching upcoming fixtures...');
         const fixtures = await getFixtures();
+        console.log('✅ Fixtures fetched successfully!');
         
         // Format data
+        console.log('🔄 Formatting data...');
         const formattedStandings = formatStandingsTable(standings);
         const formattedFixtures = formatFixtures(fixtures);
+        console.log('✅ Data formatted successfully!');
         
         // Generate prompt
+        console.log('📝 Generating AI prompt...');
         const prompt = generatePrompt(formattedStandings, formattedFixtures);
+        console.log('✅ Prompt generated successfully!');
         
         // Get predictions from Gemini
+        console.log('🤖 Getting predictions from AI...');
         const predictions = await getPredictions(prompt);
+        console.log('✅ AI predictions received!');
         
         // Log the results
-        console.log('Predictions:', JSON.stringify(predictions, null, 2));
+        console.log('\n🎯 Predictions Results:');
+        console.log('\n✨');
+        console.log(predictions);
         
     } catch (error) {
-        console.error('Error in main process:', error instanceof Error ? error.message : 'Unknown error');
+        console.error('❌ Error in main process:', error instanceof Error ? error.message : 'Unknown error');
         process.exit(1);
     }
 }
