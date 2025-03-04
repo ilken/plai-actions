@@ -1,0 +1,21 @@
+# Dependencies
+node_modules
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Build output
+dist
+
+# Environment variables
+.env
+
+# IDE
+.vscode
+.idea
+
+# Logs
+*.log 
