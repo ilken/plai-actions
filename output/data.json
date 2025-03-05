@@ -11,12 +11,12 @@
       "overUnder": {
         "prediction": "Over 2.5 Goals",
         "probability": 55,
-        "analysis": "Both teams have a decent goalscoring record. Manchester City's attack is likely to contribute to a higher-scoring game."
+        "analysis": "Both teams have decent attacking records, suggesting a reasonable chance of over 2.5 goals.  City's games often involve goals."
       },
       "bothTeamsToScore": {
         "prediction": "Yes",
-        "probability": 65,
-        "analysis": "Nottingham Forest's ability to find the net at home combined with Manchester City's attacking strength suggests both teams will score."
+        "probability": 50,
+        "analysis": "Both teams have been scoring and conceding at a similar rate recently, indicating a good chance of both teams finding the net."
       }
     },
     {
@@ -24,37 +24,37 @@
       "potentialScore": "2-1",
       "result": {
         "prediction": "Brighton & Hove Albion FC Win",
-        "probability": 50,
-        "analysis": "Brighton's slightly better league position and home advantage give them a slight edge over Fulham."
+        "probability": 55,
+        "analysis": "Brighton's slightly better position and home advantage give them a slight edge. Fulham are a tricky side to beat, though."
       },
       "overUnder": {
         "prediction": "Over 2.5 Goals",
         "probability": 65,
-        "analysis": "Both teams have a good goalscoring record, and their attacking styles should lead to a game with over 2.5 goals."
+        "analysis": "Both teams have been involved in high-scoring games recently, making over 2.5 goals a likely outcome."
       },
       "bothTeamsToScore": {
         "prediction": "Yes",
         "probability": 70,
-        "analysis": "Both teams are capable of scoring, making it likely that both teams will find the net in this match."
+        "analysis": "Both teams have strong scoring records, suggesting a good chance of both teams finding the net."
       }
     },
     {
       "match": "Crystal Palace FC v Ipswich Town FC",
-      "potentialScore": "2-0",
+      "potentialScore": "1-0",
       "result": {
         "prediction": "Crystal Palace FC Win",
-        "probability": 70,
-        "analysis": "Crystal Palace, playing at home against a team in the relegation zone, are expected to win this match."
+        "probability": 65,
+        "analysis": "Crystal Palace's slightly better defensive record and Ipswich's weak away form suggest a Palace win."
       },
       "overUnder": {
         "prediction": "Under 2.5 Goals",
         "probability": 60,
-        "analysis": "Crystal Palace's relatively low goal-scoring record and Ipswich Town's struggles in front of goal suggest this will be a low-scoring affair."
+        "analysis": "Palace's recent games have been low-scoring, and Ipswich struggles to score away from home, making under 2.5 goals the more likely outcome."
       },
       "bothTeamsToScore": {
         "prediction": "No",
-        "probability": 75,
-        "analysis": "Ipswich Town's poor form and low goal-scoring ability make it unlikely that both teams will score."
+        "probability": 60,
+        "analysis": "Ipswich's struggles to score and Palace's reasonable defensive record suggest that both teams are unlikely to score."
       }
     },
     {
@@ -63,74 +63,74 @@
       "result": {
         "prediction": "Liverpool FC Win",
         "probability": 90,
-        "analysis": "Liverpool's dominant form and home advantage make them overwhelming favorites against a struggling Southampton side."
+        "analysis": "Liverpool's dominant position and Southampton's poor form suggest a comfortable Liverpool win."
       },
       "overUnder": {
         "prediction": "Over 2.5 Goals",
         "probability": 85,
-        "analysis": "Liverpool's potent attack combined with Southampton's leaky defense suggests a high-scoring game."
+        "analysis": "Liverpool's high-scoring games and Southampton's leaky defense make over 2.5 goals very likely."
       },
       "bothTeamsToScore": {
         "prediction": "No",
-        "probability": 80,
-        "analysis": "Southampton's struggles in front of goal make it unlikely that they will score against a strong Liverpool defense."
+        "probability": 75,
+        "analysis": "Southampton's struggles to score and Liverpool's strong defense suggest that Southampton are unlikely to score."
       }
     },
     {
       "match": "Brentford FC v Aston Villa FC",
-      "potentialScore": "1-1",
-      "result": {
-        "prediction": "Draw",
-        "probability": 40,
-        "analysis": "Brentford's home form and Aston Villa's away form suggest a closely contested match, potentially ending in a draw."
-      },
-      "overUnder": {
-        "prediction": "Over 2.5 Goals",
-        "probability": 60,
-        "analysis": "Both teams have decent goal-scoring records, suggesting a game with more than 2.5 goals."
-      },
-      "bothTeamsToScore": {
-        "prediction": "Yes",
-        "probability": 70,
-        "analysis": "Both teams are capable of finding the net, making it likely that both teams will score."
-      }
-    },
-    {
-      "match": "Wolverhampton Wanderers FC v Everton FC",
-      "potentialScore": "1-0",
-      "result": {
-        "prediction": "Everton FC Win",
-        "probability": 45,
-        "analysis": "Everton's slightly better form and Wolverhampton's struggles this season give them a slight edge in this match."
-      },
-      "overUnder": {
-        "prediction": "Under 2.5 Goals",
-        "probability": 65,
-        "analysis": "Both teams have struggled to score goals consistently, suggesting a low-scoring game."
-      },
-      "bothTeamsToScore": {
-        "prediction": "No",
-        "probability": 70,
-        "analysis": "The low goal-scoring records of both teams make it unlikely that both teams will score."
-      }
-    },
-    {
-      "match": "Tottenham Hotspur FC v AFC Bournemouth",
       "potentialScore": "2-2",
       "result": {
         "prediction": "Draw",
         "probability": 40,
-        "analysis": "Tottenham's inconsistent form combined with Bournemouth's ability to score goals away from home suggests a draw is possible."
+        "analysis": "Both teams have similar records and have been inconsistent recently, making a draw a plausible outcome."
       },
       "overUnder": {
         "prediction": "Over 2.5 Goals",
         "probability": 70,
-        "analysis": "Both teams have shown the ability to score goals, suggesting a game with over 2.5 goals."
+        "analysis": "Both teams have good attacking records but also concede goals, suggesting a high-scoring game."
       },
       "bothTeamsToScore": {
         "prediction": "Yes",
         "probability": 75,
-        "analysis": "Both teams are capable of finding the net, making it likely that both teams will score."
+        "analysis": "Both teams are likely to score based on their recent form."
+      }
+    },
+    {
+      "match": "Wolverhampton Wanderers FC v Everton FC",
+      "potentialScore": "1-1",
+      "result": {
+        "prediction": "Draw",
+        "probability": 40,
+        "analysis": "Both teams are struggling and have similar records, making a draw a likely outcome."
+      },
+      "overUnder": {
+        "prediction": "Under 2.5 Goals",
+        "probability": 65,
+        "analysis": "Both teams have been struggling to score, making under 2.5 goals the more likely outcome."
+      },
+      "bothTeamsToScore": {
+        "prediction": "Yes",
+        "probability": 55,
+        "analysis": "Both teams' defensive frailties and attacking potential suggest a reasonable chance of both teams scoring."
+      }
+    },
+    {
+      "match": "Tottenham Hotspur FC v AFC Bournemouth",
+      "potentialScore": "2-1",
+      "result": {
+        "prediction": "Tottenham Hotspur FC Win",
+        "probability": 50,
+        "analysis": "Tottenham's attacking talent and Bournemouth's defensive issues give Spurs a slight advantage, but their inconsistency makes it close."
+      },
+      "overUnder": {
+        "prediction": "Over 2.5 Goals",
+        "probability": 70,
+        "analysis": "Tottenham's games are often high-scoring, and Bournemouth can also contribute to goals, making over 2.5 goals likely."
+      },
+      "bothTeamsToScore": {
+        "prediction": "Yes",
+        "probability": 80,
+        "analysis": "Tottenham's defensive vulnerabilities and Bournemouth's scoring potential make both teams scoring very likely."
       }
     },
     {
@@ -138,56 +138,56 @@
       "potentialScore": "3-1",
       "result": {
         "prediction": "Chelsea FC Win",
-        "probability": 75,
-        "analysis": "Chelsea's overall better quality team and Leicester's poor form this season suggest a Chelsea victory."
+        "probability": 70,
+        "analysis": "Chelsea's better form and Leicester's struggles give Chelsea a clear advantage."
       },
       "overUnder": {
         "prediction": "Over 2.5 Goals",
         "probability": 65,
-        "analysis": "Chelsea's attacking prowess combined with Leicester's leaky defense suggests a high-scoring game."
+        "analysis": "Chelsea's attacking prowess and Leicester's leaky defense suggest over 2.5 goals is likely."
       },
       "bothTeamsToScore": {
         "prediction": "Yes",
-        "probability": 60,
-        "analysis": "Leicester's ability to find the net despite their struggles makes it possible that both teams will score."
+        "probability": 65,
+        "analysis": "Chelsea's defensive issues and Leicester's ability to find the net occasionally make both teams scoring a possibility."
       }
     },
     {
       "match": "Manchester United FC v Arsenal FC",
-      "potentialScore": "1-2",
+      "potentialScore": "0-2",
       "result": {
         "prediction": "Arsenal FC Win",
-        "probability": 55,
-        "analysis": "Arsenal's better form and position in the league, added with Man Utd's inconsistencies makes Arsenal favourites."
+        "probability": 65,
+        "analysis": "Arsenal's superior form and Manchester United's struggles give Arsenal a significant advantage."
       },
       "overUnder": {
-        "prediction": "Over 2.5 Goals",
-        "probability": 65,
-        "analysis": "Both teams have strong attacking players, suggesting a game with over 2.5 goals."
+        "prediction": "Under 2.5 Goals",
+        "probability": 55,
+        "analysis": "United's recent low-scoring games and Arsenal's solid defense suggest under 2.5 goals is possible."
       },
       "bothTeamsToScore": {
-        "prediction": "Yes",
-        "probability": 70,
-        "analysis": "Both teams are capable of finding the net, making it likely that both teams will score."
+        "prediction": "No",
+        "probability": 60,
+        "analysis": "United's struggles to score and Arsenal's defensive strength make both teams scoring unlikely."
       }
     },
     {
       "match": "West Ham United FC v Newcastle United FC",
-      "potentialScore": "0-1",
+      "potentialScore": "1-2",
       "result": {
         "prediction": "Newcastle United FC Win",
         "probability": 50,
-        "analysis": "Newcastle's slightly better form and West Ham's struggles in front of goal give Newcastle the edge."
+        "analysis": "Newcastle's slightly better form and West Ham's inconsistency give Newcastle a slight edge."
       },
       "overUnder": {
         "prediction": "Under 2.5 Goals",
-        "probability": 60,
-        "analysis": "West Ham's low goal-scoring record and Newcastle's solid defense suggest a low-scoring game."
+        "probability": 55,
+        "analysis": "West Ham's struggles to score and Newcastle's solid defense suggest under 2.5 goals is possible."
       },
       "bothTeamsToScore": {
-        "prediction": "No",
-        "probability": 65,
-        "analysis": "West Ham's struggles in front of goal make it unlikely that both teams will score."
+        "prediction": "Yes",
+        "probability": 50,
+        "analysis": "Both teams' potential to score but also concede makes both teams scoring a possibility."
       }
     }
   ]
