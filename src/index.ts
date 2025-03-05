@@ -127,7 +127,7 @@ For each match provide
 - Both teams to score Yes/No
 - Probably of each of these predictions happening separately
 
-Print in JSON format as shown in the example below:
+Print in stringified JSON format as shown in the example below:
 {
   "predictions": [
     {
@@ -176,7 +176,8 @@ async function getPredictions(prompt: string): Promise<PredictionResponse> {
 
         if (response.data.candidates && response.data.candidates[0].content) {
             const predictions = response.data.candidates[0].content.parts[0].text;
-            return predictions as PredictionResponse;
+
+            return predictions.replace(/```json\n?|\n?```/g, '').trim() as PredictionResponse;
         } else {
             throw new Error('Invalid response format from Gemini API');
         }
