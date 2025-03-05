@@ -20,7 +20,4 @@ dist
 .idea
 
 # Logs
-*.log 
-
-# Output
-output/*
+*.log

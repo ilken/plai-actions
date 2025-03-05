@@ -28,4 +28,16 @@ jobs:
         env:
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: yarn start 
+        run: yarn start
+        
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+      - name: Commit and push predictions
+        run: |
+          git checkout -b plai-actions
+          git add output/data.json
+          git commit -m "🤖 Update predictions [skip ci]"
+          git push -f origin plai-actions 
