@@ -21,3 +21,6 @@ dist
 
 # Logs
 *.log 
+
+# Output
+output/*

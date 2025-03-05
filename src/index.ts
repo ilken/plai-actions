@@ -93,7 +93,10 @@ function formatStandingsTable(standings: StandingEntry[]): FormattedStanding[] {
 }
 
 function formatFixtures(fixtures: Match[]): string {
-    return fixtures.map(match => 
+    if(!fixtures?.length) return "";
+
+    const matchday = fixtures[0].matchday;
+    return fixtures.filter(match => match.matchday === matchday).map(match => 
         `${match.homeTeam.name} - ${match.awayTeam.name}`
     ).join('\n');
 }
@@ -215,10 +218,21 @@ async function main(): Promise<void> {
         const predictions = await getPredictions(prompt);
         console.log('✅ AI predictions received!');
         
-        // Log the results
-        console.log('\n🎯 Predictions Results:');
-        console.log('\n✨');
-        console.log(predictions);
+        // Write predictions to a JSON file
+        const fs = require('fs');
+        const outputPath = './output/data.json';
+
+        // Ensure output directory exists
+        if (!fs.existsSync('./output')) {
+            fs.mkdirSync('./output');
+        }
+
+        // Clear existing data by writing an empty array
+        fs.writeFileSync(outputPath, "");
+
+        // Write the new predictions to file with proper formatting
+        fs.writeFileSync(outputPath, predictions);
+        console.log(`✅ Predictions have been saved to: ${outputPath}`);
         
     } catch (error) {
         console.error('❌ Error in main process:', error instanceof Error ? error.message : 'Unknown error');

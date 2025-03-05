@@ -26,6 +26,7 @@ export type Match = {
   awayTeam: Team;
   utcDate: string;
   status: string;
+  matchday: number;
 }
 
 export type FormattedStanding = {
