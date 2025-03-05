@@ -50,6 +50,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: plai-actions
+          base: plai-actions
           title: 'chore(🤖): update predictions'
           body: |
             🎯 Automated Premier League predictions update
