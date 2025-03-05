@@ -10,6 +10,10 @@ node_modules
 # Build output
 dist
 
+# Allow predictions output
+!output/
+!output/data.json
+
 # Environment variables
 .env
 .env.*
