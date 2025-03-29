@@ -1,155 +1,193 @@
 {
   "predictions": [
     {
-      "match": "Everton FC v West Ham United FC",
+      "match": "Arsenal FC v Fulham FC",
+      "potentialScore": "3-1",
+      "result": {
+        "prediction": "Arsenal FC Win",
+        "probability": 75,
+        "analysis": "Arsenal are strong at home and Fulham have been inconsistent. Arsenal's superior attack should prevail."
+      },
+      "overUnder": {
+        "prediction": "Over 2.5 Goals",
+        "probability": 70,
+        "analysis": "Arsenal's matches tend to be high scoring, and Fulham are capable of scoring. High probability of over 2.5 goals."
+      },
+      "bothTeamsToScore": {
+        "prediction": "Yes",
+        "probability": 65,
+        "analysis": "Fulham have a decent attack and are likely to score against Arsenal's defence."
+      }
+    },
+    {
+      "match": "Wolverhampton Wanderers FC v West Ham United FC",
       "potentialScore": "1-1",
       "result": {
         "prediction": "Draw",
         "probability": 40,
-        "analysis": "Both teams are struggling and close in the table. Everton's home advantage is negated by West Ham's slightly better form. A draw is likely."
+        "analysis": "Both teams have struggled for consistency. A tight match is expected."
       },
       "overUnder": {
         "prediction": "Under 2.5 Goals",
-        "probability": 65,
-        "analysis": "Both teams have relatively poor attacking records and decent defenses. A low-scoring affair is expected."
+        "probability": 60,
+        "analysis": "Both teams have struggled for goals, suggesting a low-scoring affair."
       },
       "bothTeamsToScore": {
         "prediction": "Yes",
         "probability": 55,
-        "analysis": "Both teams have shown the ability to score, but their inconsistent form makes a clean sheet possible for either side."
+        "analysis": "Both teams are capable of scoring, but their defensive frailties make it more likely."
       }
     },
     {
-      "match": "Ipswich Town FC v Nottingham Forest FC",
-      "potentialScore": "0-2",
+      "match": "Nottingham Forest FC v Manchester United FC",
+      "potentialScore": "2-1",
       "result": {
         "prediction": "Nottingham Forest FC Win",
+        "probability": 45,
+        "analysis": "Forest are tough at home, while Man United are poor away from home. Forest's home advantage could be decisive."
+      },
+      "overUnder": {
+        "prediction": "Over 2.5 Goals",
+        "probability": 55,
+        "analysis": "Given both teams' recent defensive records, there's a reasonable chance of over 2.5 goals."
+      },
+      "bothTeamsToScore": {
+        "prediction": "Yes",
         "probability": 60,
-        "analysis": "Nottingham Forest FC are significantly higher in the table and have been performing better than Ipswich Town FC. An away win is likely."
+        "analysis": "Man U defence is poor and Forest attack is good, both teams should score."
+      }
+    },
+    {
+      "match": "AFC Bournemouth v Ipswich Town FC",
+      "potentialScore": "2-0",
+      "result": {
+        "prediction": "AFC Bournemouth Win",
+        "probability": 70,
+        "analysis": "Bournemouth are strong at home, while Ipswich have struggled this season. Bournemouth should win comfortably."
       },
       "overUnder": {
         "prediction": "Under 2.5 Goals",
         "probability": 55,
-        "analysis": "Ipswich Town FC have struggled to score goals this season, and Nottingham Forest FC's defense is relatively solid. A low-scoring match is expected."
+        "analysis": "Bournemouth's solid defence and Ipswich's struggles in attack suggest a low-scoring match."
       },
       "bothTeamsToScore": {
         "prediction": "No",
-        "probability": 65,
-        "analysis": "Ipswich Town FC's poor attacking form suggests they may struggle to find the net against Nottingham Forest FC."
-      }
-    },
-    {
-      "match": "Manchester City FC v Brighton & Hove Albion FC",
-      "potentialScore": "3-1",
-      "result": {
-        "prediction": "Manchester City FC Win",
-        "probability": 70,
-        "analysis": "Manchester City FC are a strong team playing at home. Despite Brighton's decent season, Manchester City FC are expected to win."
-      },
-      "overUnder": {
-        "prediction": "Over 2.5 Goals",
-        "probability": 75,
-        "analysis": "Both teams have strong attacking records, and Manchester City FC are likely to score multiple goals at home."
-      },
-      "bothTeamsToScore": {
-        "prediction": "Yes",
         "probability": 60,
-        "analysis": "Brighton & Hove Albion FC are capable of scoring, but Manchester City FC's attacking prowess should lead to a high-scoring game."
+        "analysis": "Ipswich's poor attacking form makes it unlikely they'll score."
       }
     },
     {
-      "match": "Southampton FC v Wolverhampton Wanderers FC",
-      "potentialScore": "1-2",
-      "result": {
-        "prediction": "Wolverhampton Wanderers FC Win",
-        "probability": 55,
-        "analysis": "Southampton FC are at the bottom of the table and have been struggling all season. Wolverhampton Wanderers FC, while not great, are a better team and should win."
-      },
-      "overUnder": {
-        "prediction": "Over 2.5 Goals",
-        "probability": 50,
-        "analysis": "Southampton FC's leaky defense and Wolverhampton Wanderers FC's ability to score suggest there will be goals in this game."
-      },
-      "bothTeamsToScore": {
-        "prediction": "Yes",
-        "probability": 60,
-        "analysis": "Both teams have shown defensive vulnerabilities, making it likely that both will find the net."
-      }
-    },
-    {
-      "match": "AFC Bournemouth v Brentford FC",
+      "match": "Brighton & Hove Albion FC v Aston Villa FC",
       "potentialScore": "2-2",
       "result": {
         "prediction": "Draw",
         "probability": 35,
-        "analysis": "Both teams are relatively evenly matched, with similar records. A draw is a distinct possibility."
+        "analysis": "Both teams are evenly matched and capable of scoring. A draw is a likely outcome."
       },
       "overUnder": {
         "prediction": "Over 2.5 Goals",
-        "probability": 65,
-        "analysis": "Both teams have decent attacking records and have conceded a fair number of goals, suggesting a high-scoring game."
-      },
-      "bothTeamsToScore": {
-        "prediction": "Yes",
         "probability": 70,
-        "analysis": "Given both teams' attacking capabilities and defensive vulnerabilities, both are likely to score."
-      }
-    },
-    {
-      "match": "Arsenal FC v Chelsea FC",
-      "potentialScore": "2-1",
-      "result": {
-        "prediction": "Arsenal FC Win",
-        "probability": 60,
-        "analysis": "Arsenal FC are in a much better position in the league and are playing at home. They are the favorites to win."
-      },
-      "overUnder": {
-        "prediction": "Over 2.5 Goals",
-        "probability": 60,
-        "analysis": "Both teams have strong attacking records, suggesting a game with at least three goals."
+        "analysis": "Both teams can score goals and have leaky defences, so over 2.5 goals is likely."
       },
       "bothTeamsToScore": {
         "prediction": "Yes",
-        "probability": 65,
-        "analysis": "Both teams have the attacking quality to score, making it likely that both will find the net."
+        "probability": 75,
+        "analysis": "Both teams are strong offensively and likely to find the net."
       }
     },
     {
-      "match": "Fulham FC v Tottenham Hotspur FC",
-      "potentialScore": "1-2",
+      "match": "Manchester City FC v Leicester City FC",
+      "potentialScore": "3-0",
       "result": {
-        "prediction": "Tottenham Hotspur FC Win",
-        "probability": 45,
-        "analysis": "Tottenham Hotspur FC have a slight edge in terms of attacking prowess, though they do concede goals. Fulham FC can be tricky at home, but I'm backing Spurs."
+        "prediction": "Manchester City FC Win",
+        "probability": 80,
+        "analysis": "Man City are strong at home, and Leicester are struggling this season. A comfortable win for City is expected."
       },
       "overUnder": {
         "prediction": "Over 2.5 Goals",
-        "probability": 60,
-        "analysis": "Tottenham's games are usually high scoring, and Fulham have been scoring a few goals lately. Expect goals."
-      },
-      "bothTeamsToScore": {
-        "prediction": "Yes",
         "probability": 65,
-        "analysis": "Tottenham concede goals and Fulham score - so both to score looks a good bet."
-      }
-    },
-    {
-      "match": "Leicester City FC v Manchester United FC",
-      "potentialScore": "0-2",
-      "result": {
-        "prediction": "Manchester United FC Win",
-        "probability": 65,
-        "analysis": "Leicester are in terrible form and Man United, despite their own issues, are the clear favorites."
-      },
-      "overUnder": {
-        "prediction": "Under 2.5 Goals",
-        "probability": 55,
-        "analysis": "While Man U *can* score, they're not prolific. Leicester are struggling to score at all. I'm expecting a low scoring Man U win."
+        "analysis": "Man City's matches tend to be high scoring, and Leicester's defense is leaky."
       },
       "bothTeamsToScore": {
         "prediction": "No",
         "probability": 60,
-        "analysis": "Leicester's poor form means they are unlikely to score against Man U."
+        "analysis": "Man City's solid defence should prevent Leicester from scoring."
+      }
+    },
+    {
+      "match": "Newcastle United FC v Brentford FC",
+      "potentialScore": "2-1",
+      "result": {
+        "prediction": "Newcastle United FC Win",
+        "probability": 55,
+        "analysis": "Newcastle are generally strong at home. Brentford are inconsistent and struggle against the top teams."
+      },
+      "overUnder": {
+        "prediction": "Over 2.5 Goals",
+        "probability": 60,
+        "analysis": "Both teams have decent attacks, making over 2.5 goals likely."
+      },
+      "bothTeamsToScore": {
+        "prediction": "Yes",
+        "probability": 65,
+        "analysis": "Both teams are capable of scoring."
+      }
+    },
+    {
+      "match": "Southampton FC v Crystal Palace FC",
+      "potentialScore": "0-1",
+      "result": {
+        "prediction": "Crystal Palace FC Win",
+        "probability": 50,
+        "analysis": "Southampton are in terrible form, while Crystal Palace are relatively solid. Palace should win."
+      },
+      "overUnder": {
+        "prediction": "Under 2.5 Goals",
+        "probability": 70,
+        "analysis": "Southampton struggle to score, and Crystal Palace are not prolific. Under 2.5 goals is expected."
+      },
+      "bothTeamsToScore": {
+        "prediction": "No",
+        "probability": 75,
+        "analysis": "Southampton's poor attack makes it unlikely they'll score."
+      }
+    },
+    {
+      "match": "Liverpool FC v Everton FC",
+      "potentialScore": "2-0",
+      "result": {
+        "prediction": "Liverpool FC Win",
+        "probability": 75,
+        "analysis": "Liverpool are strong at home, and Everton have struggled this season. A win for Liverpool is expected."
+      },
+      "overUnder": {
+        "prediction": "Under 2.5 Goals",
+        "probability": 55,
+        "analysis": "Everton defence is tough to break down, Liverpool should win but it may not be high scoring."
+      },
+      "bothTeamsToScore": {
+        "prediction": "No",
+        "probability": 70,
+        "analysis": "Everton's poor attack makes it unlikely they'll score against Liverpool's defence."
+      }
+    },
+    {
+      "match": "Chelsea FC v Tottenham Hotspur FC",
+      "potentialScore": "2-1",
+      "result": {
+        "prediction": "Chelsea FC Win",
+        "probability": 55,
+        "analysis": "Chelsea are at home and have a slightly better form than Spurs at the moment."
+      },
+      "overUnder": {
+        "prediction": "Over 2.5 Goals",
+        "probability": 65,
+        "analysis": "Both teams have good attacks and poor defences so over 2.5 goals is likely."
+      },
+      "bothTeamsToScore": {
+        "prediction": "Yes",
+        "probability": 65,
+        "analysis": "Both teams are capable of scoring."
       }
     }
   ]
