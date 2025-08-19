@@ -1,193 +1,193 @@
 {
   "predictions": [
     {
-      "match": "Liverpool FC v AFC Bournemouth",
-      "potentialScore": "3-0",
-      "result": {
-        "prediction": "Liverpool FC Win",
-        "probability": 85,
-        "analysis": "Liverpool are strong at home and Bournemouth are newly promoted. Expect Liverpool to dominate."
-      },
-      "overUnder": {
-        "prediction": "Over 2.5 Goals",
-        "probability": 70,
-        "analysis": "Liverpool's attacking prowess combined with Bournemouth's potential defensive vulnerabilities suggests a high-scoring game."
-      },
-      "bothTeamsToScore": {
-        "prediction": "No",
-        "probability": 60,
-        "analysis": "Liverpool's strong defense is likely to keep Bournemouth from scoring."
-      }
-    },
-    {
-      "match": "Aston Villa FC v Newcastle United FC",
+      "match": "West Ham United FC v Chelsea FC",
       "potentialScore": "1-1",
       "result": {
         "prediction": "Draw",
         "probability": 40,
-        "analysis": "Both teams are evenly matched and a draw is a likely outcome."
-      },
-      "overUnder": {
-        "prediction": "Under 2.5 Goals",
-        "probability": 55,
-        "analysis": "A tight affair is expected, with both teams focusing on defensive solidity."
-      },
-      "bothTeamsToScore": {
-        "prediction": "Yes",
-        "probability": 50,
-        "analysis": "Both teams have the potential to score, but it will be a close contest."
-      }
-    },
-    {
-      "match": "Brighton & Hove Albion FC v Fulham FC",
-      "potentialScore": "2-1",
-      "result": {
-        "prediction": "Brighton & Hove Albion FC Win",
-        "probability": 55,
-        "analysis": "Brighton's solid home form gives them the edge over Fulham."
-      },
-      "overUnder": {
-        "prediction": "Over 2.5 Goals",
-        "probability": 50,
-        "analysis": "Brighton are a strong attacking team and Fulham can score goals as well."
-      },
-      "bothTeamsToScore": {
-        "prediction": "Yes",
-        "probability": 60,
-        "analysis": "Fulham's attacking threat means they are likely to get on the scoresheet."
-      }
-    },
-    {
-      "match": "Sunderland AFC v West Ham United FC",
-      "potentialScore": "0-2",
-      "result": {
-        "prediction": "West Ham United FC Win",
-        "probability": 60,
-        "analysis": "West Ham have got the experience and better players and should win this fixture."
+        "analysis": "West Ham lost heavily in their first match, while Chelsea drew. Chelsea are slight favourites, but West Ham at home could put up a fight. A draw seems the most likely outcome."
       },
       "overUnder": {
         "prediction": "Under 2.5 Goals",
         "probability": 60,
-        "analysis": "West Ham's defensive solidity suggests a low-scoring game. Sunderland will find it hard to score."
+        "analysis": "West Ham have shown they can concede goals. Chelsea have a new attack so may need some time to gel. The probability is slightly in favor of under 2.5 goals."
       },
       "bothTeamsToScore": {
-        "prediction": "No",
-        "probability": 70,
-        "analysis": "West Ham's defense is likely to keep Sunderland from scoring."
+        "prediction": "Yes",
+        "probability": 55,
+        "analysis": "Both teams have the attacking quality to score, but Chelsea are not firing on all cylinders. This will likely be a tight game."
       }
     },
     {
-      "match": "Tottenham Hotspur FC v Burnley FC",
+      "match": "Manchester City FC v Tottenham Hotspur FC",
       "potentialScore": "3-1",
       "result": {
-        "prediction": "Tottenham Hotspur FC Win",
-        "probability": 80,
-        "analysis": "Tottenham are strong at home and Burnley may struggle to contain their attack."
-      },
-      "overUnder": {
-        "prediction": "Over 2.5 Goals",
-        "probability": 75,
-        "analysis": "Tottenham's attacking prowess suggests a high-scoring game."
-      },
-      "bothTeamsToScore": {
-        "prediction": "Yes",
-        "probability": 55,
-        "analysis": "Burnley are capable of scoring, even against strong opposition."
-      }
-    },
-    {
-      "match": "Wolverhampton Wanderers FC v Manchester City FC",
-      "potentialScore": "0-3",
-      "result": {
         "prediction": "Manchester City FC Win",
-        "probability": 90,
-        "analysis": "Manchester City are overwhelming favourites and are expected to dominate."
+        "probability": 75,
+        "analysis": "Manchester City started strongly with a 4-0 win. Tottenham also won, but City's attacking power is formidable, especially at home. City are heavy favorites."
       },
       "overUnder": {
         "prediction": "Over 2.5 Goals",
         "probability": 70,
-        "analysis": "Manchester City's attacking strength is likely to result in a high-scoring game."
-      },
-      "bothTeamsToScore": {
-        "prediction": "No",
-        "probability": 80,
-        "analysis": "Manchester City's strong defense is likely to keep Wolves from scoring."
-      }
-    },
-    {
-      "match": "Nottingham Forest FC v Brentford FC",
-      "potentialScore": "1-2",
-      "result": {
-        "prediction": "Brentford FC Win",
-        "probability": 45,
-        "analysis": "Brentford are a strong team and have what it takes to win this fixture."
-      },
-      "overUnder": {
-        "prediction": "Under 2.5 Goals",
-        "probability": 50,
-        "analysis": "A tight game is expected, with both teams evenly matched."
+        "analysis": "Man City scored 4, and Tottenham scored 3. City are likely to score at least twice, and Tottenham have the attacking threat to find the net. This should be an open game."
       },
       "bothTeamsToScore": {
         "prediction": "Yes",
-        "probability": 55,
-        "analysis": "Both teams have the potential to score in a close contest."
+        "probability": 65,
+        "analysis": "Tottenham will likely get one goal. City will score more than one."
       }
     },
     {
-      "match": "Chelsea FC v Crystal Palace FC",
-      "potentialScore": "2-0",
+      "match": "AFC Bournemouth v Wolverhampton Wanderers FC",
+      "potentialScore": "1-0",
       "result": {
-        "prediction": "Chelsea FC Win",
-        "probability": 75,
-        "analysis": "Chelsea are strong at home and are expected to control the game."
+        "prediction": "AFC Bournemouth Win",
+        "probability": 45,
+        "analysis": "Bournemouth lost their first match, conceding 4. Wolves also lost, failing to score. Bournemouth at home have a slight edge. This is a tough one to call."
       },
       "overUnder": {
         "prediction": "Under 2.5 Goals",
-        "probability": 55,
-        "analysis": "Chelsea's defensive strength suggests a low-scoring game."
+        "probability": 65,
+        "analysis": "Neither team is particularly strong in attack. Wolves didn't score in their first match; Bournemouth scored a couple but also conceded 4."
       },
       "bothTeamsToScore": {
         "prediction": "No",
-        "probability": 65,
-        "analysis": "Chelsea's defense is likely to keep Crystal Palace from scoring."
+        "probability": 60,
+        "analysis": "Both teams are struggling with goals. The chances of both scoring are unlikely."
       }
     },
     {
-      "match": "Manchester United FC v Arsenal FC",
+      "match": "Brentford FC v Aston Villa FC",
       "potentialScore": "2-2",
       "result": {
         "prediction": "Draw",
         "probability": 35,
-        "analysis": "A tight game is expected, with both teams evenly matched."
+        "analysis": "Brentford lost their first match, conceding 3. Villa drew scoring 0. Villa have quality, but Brentford at home can be tough to beat. A draw is a distinct possibility."
       },
       "overUnder": {
         "prediction": "Over 2.5 Goals",
-        "probability": 65,
-        "analysis": "Both teams have the potential to score, making this a high-scoring game."
+        "probability": 55,
+        "analysis": "Brentford's first game had over 2.5 goals, Villa's had under. Expecting a few goals here."
       },
       "bothTeamsToScore": {
         "prediction": "Yes",
-        "probability": 70,
-        "analysis": "Both teams have the ability to find the back of the net."
+        "probability": 60,
+        "analysis": "Both teams should find the net in this match."
       }
     },
     {
-      "match": "Leeds United FC v Everton FC",
-      "potentialScore": "1-0",
+      "match": "Burnley FC v Sunderland AFC",
+      "potentialScore": "0-2",
       "result": {
-        "prediction": "Leeds United FC Win",
-        "probability": 50,
-        "analysis": "Leeds will have the edge in this fixture."
+        "prediction": "Sunderland AFC Win",
+        "probability": 40,
+        "analysis": "Burnley lost 3-0, while Sunderland won 3-0. Sunderland are in good form. However Burnley are a new team and may improve."
+      },
+      "overUnder": {
+        "prediction": "Under 2.5 Goals",
+        "probability": 60,
+        "analysis": "Burnley may struggle to score many goals."
+      },
+      "bothTeamsToScore": {
+        "prediction": "No",
+        "probability": 65,
+        "analysis": "Sunderland are in form and may keep a clean sheet."
+      }
+    },
+    {
+      "match": "Arsenal FC v Leeds United FC",
+      "potentialScore": "2-0",
+      "result": {
+        "prediction": "Arsenal FC Win",
+        "probability": 70,
+        "analysis": "Arsenal won their first game, Leeds won too, but Arsenal are the better team. Leeds are likely to struggle against Arsenal's attack."
       },
       "overUnder": {
         "prediction": "Under 2.5 Goals",
         "probability": 55,
-        "analysis": "A tight game is expected, with both teams evenly matched."
+        "analysis": "Arsenal are strong defensively and may not concede."
       },
       "bothTeamsToScore": {
         "prediction": "No",
         "probability": 60,
-        "analysis": "Everton are likely to struggle to score."
+        "analysis": "Leeds may struggle to score."
+      }
+    },
+    {
+      "match": "Crystal Palace FC v Nottingham Forest FC",
+      "potentialScore": "1-1",
+      "result": {
+        "prediction": "Draw",
+        "probability": 40,
+        "analysis": "Palace drew their first game, Forest won. Forest are a decent team but Palace at home will be hard to beat."
+      },
+      "overUnder": {
+        "prediction": "Under 2.5 Goals",
+        "probability": 60,
+        "analysis": "This will be a tight game."
+      },
+      "bothTeamsToScore": {
+        "prediction": "Yes",
+        "probability": 55,
+        "analysis": "Both teams should score."
+      }
+    },
+    {
+      "match": "Everton FC v Brighton & Hove Albion FC",
+      "potentialScore": "1-2",
+      "result": {
+        "prediction": "Brighton & Hove Albion FC Win",
+        "probability": 50,
+        "analysis": "Everton lost their first game, Brighton drew. Brighton are slightly the better team."
+      },
+      "overUnder": {
+        "prediction": "Under 2.5 Goals",
+        "probability": 55,
+        "analysis": "This will be a tight game."
+      },
+      "bothTeamsToScore": {
+        "prediction": "Yes",
+        "probability": 60,
+        "analysis": "Both teams should score."
+      }
+    },
+    {
+      "match": "Fulham FC v Manchester United FC",
+      "potentialScore": "1-2",
+      "result": {
+        "prediction": "Manchester United FC Win",
+        "probability": 50,
+        "analysis": "Fulham drew, Man U lost. Man U have more quality and should win, although Fulham are a hard team to beat."
+      },
+      "overUnder": {
+        "prediction": "Under 2.5 Goals",
+        "probability": 55,
+        "analysis": "This will be a tight game."
+      },
+      "bothTeamsToScore": {
+        "prediction": "Yes",
+        "probability": 60,
+        "analysis": "Both teams should score."
+      }
+    },
+    {
+      "match": "Newcastle United FC v Liverpool FC",
+      "potentialScore": "1-3",
+      "result": {
+        "prediction": "Liverpool FC Win",
+        "probability": 60,
+        "analysis": "Newcastle drew their first game, Liverpool won. Liverpool are a much better team and should win."
+      },
+      "overUnder": {
+        "prediction": "Over 2.5 Goals",
+        "probability": 60,
+        "analysis": "Liverpool should score a few goals."
+      },
+      "bothTeamsToScore": {
+        "prediction": "Yes",
+        "probability": 60,
+        "analysis": "Newcastle will likely score."
       }
     }
   ]
