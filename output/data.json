@@ -1,193 +1,193 @@
 {
   "predictions": [
     {
-      "match": "Brighton & Hove Albion FC v Leeds United FC",
-      "potentialScore": "1-1",
-      "result": {
-        "prediction": "Draw",
-        "probability": 40,
-        "analysis": "Brighton and Leeds are closely matched in the table. Brighton's home advantage is offset by Leeds' need for points. A draw is a likely outcome."
-      },
-      "overUnder": {
-        "prediction": "Under 2.5 Goals",
-        "probability": 60,
-        "analysis": "Both teams have struggled for goals recently, and their defensive records are similar. A low-scoring game is expected."
-      },
-      "bothTeamsToScore": {
-        "prediction": "Yes",
-        "probability": 55,
-        "analysis": "Both defences have been leaky, so both teams have a good chance of scoring."
-      }
-    },
-    {
-      "match": "Crystal Palace FC v Brentford FC",
-      "potentialScore": "1-0",
-      "result": {
-        "prediction": "Crystal Palace Win",
-        "probability": 45,
-        "analysis": "Crystal Palace are slightly higher in the table and have a better defensive record. Home advantage gives them a slight edge."
-      },
-      "overUnder": {
-        "prediction": "Under 2.5 Goals",
-        "probability": 65,
-        "analysis": "Crystal Palace's games tend to be low-scoring, and Brentford have also struggled for goals recently. Expect a tight affair."
-      },
-      "bothTeamsToScore": {
-        "prediction": "No",
-        "probability": 60,
-        "analysis": "Crystal Palace's defense is relatively solid, and Brentford may struggle to break them down."
-      }
-    },
-    {
-      "match": "Burnley FC v Arsenal FC",
-      "potentialScore": "0-2",
-      "result": {
-        "prediction": "Arsenal FC Win",
-        "probability": 75,
-        "analysis": "Arsenal are top of the league and in excellent form. Burnley, despite being mid-table, will struggle against their attacking prowess."
-      },
-      "overUnder": {
-        "prediction": "Under 2.5 Goals",
-        "probability": 55,
-        "analysis": "Arsenal have the best defensive record, and while they will likely win, it may not be a high-scoring affair."
-      },
-      "bothTeamsToScore": {
-        "prediction": "No",
-        "probability": 70,
-        "analysis": "Arsenal's strong defense makes it unlikely that Burnley will score."
-      }
-    },
-    {
-      "match": "Fulham FC v Wolverhampton Wanderers FC",
-      "potentialScore": "1-0",
-      "result": {
-        "prediction": "Fulham FC Win",
-        "probability": 50,
-        "analysis": "Fulham, despite being lower in the table, are playing a struggling Wolves side. Home advantage gives them the edge."
-      },
-      "overUnder": {
-        "prediction": "Under 2.5 Goals",
-        "probability": 70,
-        "analysis": "Both teams have struggled for goals this season, and their matches tend to be low-scoring."
-      },
-      "bothTeamsToScore": {
-        "prediction": "No",
-        "probability": 65,
-        "analysis": "Wolves' attacking frailties make it unlikely they will score."
-      }
-    },
-    {
-      "match": "Nottingham Forest FC v Manchester United FC",
-      "potentialScore": "0-2",
-      "result": {
-        "prediction": "Manchester United FC Win",
-        "probability": 70,
-        "analysis": "Manchester United are higher in the table and have a better squad. Nottingham Forest are struggling near the bottom."
-      },
-      "overUnder": {
-        "prediction": "Under 2.5 Goals",
-        "probability": 60,
-        "analysis": "Nottingham Forest have struggled to score, and Manchester United may not need to score many to win."
-      },
-      "bothTeamsToScore": {
-        "prediction": "No",
-        "probability": 75,
-        "analysis": "Nottingham Forest's poor attacking record makes it unlikely they will score."
-      }
-    },
-    {
-      "match": "Tottenham Hotspur FC v Chelsea FC",
+      "match": "Tottenham Hotspur FC v Manchester United FC",
       "potentialScore": "2-1",
       "result": {
         "prediction": "Tottenham Hotspur FC Win",
-        "probability": 50,
-        "analysis": "Tottenham and Chelsea are experiencing different forms. Tottenham are higher in the table and have home advantage. Chelsea's defence is not stable."
+        "probability": 45,
+        "analysis": "Tottenham are in slightly better form and have a better goal difference. Home advantage gives them a slight edge."
       },
       "overUnder": {
         "prediction": "Over 2.5 Goals",
         "probability": 55,
-        "analysis": "Both teams have attacking quality, and Chelsea's defensive issues suggest goals."
+        "analysis": "Both teams are capable of scoring, and their recent form suggests a decent chance of over 2.5 goals."
       },
       "bothTeamsToScore": {
         "prediction": "Yes",
-        "probability": 65,
-        "analysis": "Both teams are capable of scoring, making it likely both will find the net."
-      }
-    },
-    {
-      "match": "Liverpool FC v Aston Villa FC",
-      "potentialScore": "2-0",
-      "result": {
-        "prediction": "Liverpool FC Win",
-        "probability": 65,
-        "analysis": "Liverpool are higher in the table and have home advantage. While Aston Villa are mid-table, Liverpool's attacking prowess should prevail."
-      },
-      "overUnder": {
-        "prediction": "Over 2.5 Goals",
-        "probability": 55,
-        "analysis": "Liverpool's games are often high-scoring, and they will be looking to attack."
-      },
-      "bothTeamsToScore": {
-        "prediction": "No",
         "probability": 60,
-        "analysis": "Liverpool's defence, while not perfect, is good enough to keep Aston Villa at bay."
+        "analysis": "Both teams have been scoring regularly, and their defensive records suggest goals will be conceded."
       }
     },
     {
-      "match": "West Ham United FC v Newcastle United FC",
-      "potentialScore": "0-1",
+      "match": "Everton FC v Fulham FC",
+      "potentialScore": "1-0",
       "result": {
-        "prediction": "Newcastle United FC Win",
-        "probability": 55,
-        "analysis": "Newcastle are higher in the table, and West Ham are struggling. Newcastle's form gives them the edge."
+        "prediction": "Everton FC Win",
+        "probability": 40,
+        "analysis": "Everton have a slight home advantage. Both teams have similar records, but Everton's defense is slightly stronger."
       },
       "overUnder": {
         "prediction": "Under 2.5 Goals",
         "probability": 65,
-        "analysis": "Both teams have struggled for goals recently, and a tight game is expected."
+        "analysis": "Both teams have struggled to score consistently, suggesting a low-scoring affair."
       },
       "bothTeamsToScore": {
         "prediction": "No",
-        "probability": 70,
-        "analysis": "West Ham's attacking struggles make it unlikely they will score."
+        "probability": 60,
+        "analysis": "Neither team has been particularly prolific in front of goal, making it less likely both will score."
       }
     },
     {
-      "match": "Manchester City FC v AFC Bournemouth",
-      "potentialScore": "3-0",
-      "result": {
-        "prediction": "Manchester City FC Win",
-        "probability": 85,
-        "analysis": "Manchester City are a dominant force, and Bournemouth are lower in the table. A comfortable win is expected."
-      },
-      "overUnder": {
-        "prediction": "Over 2.5 Goals",
-        "probability": 70,
-        "analysis": "Manchester City's attacking power should lead to a high-scoring game."
-      },
-      "bothTeamsToScore": {
-        "prediction": "No",
-        "probability": 80,
-        "analysis": "Bournemouth are unlikely to score against City's strong defence."
-      }
-    },
-    {
-      "match": "Sunderland AFC v Everton FC",
+      "match": "West Ham United FC v Burnley FC",
       "potentialScore": "1-1",
       "result": {
         "prediction": "Draw",
         "probability": 35,
-        "analysis": "Sunderland and Everton are closely matched in the table. A draw is a possible outcome."
+        "analysis": "West Ham are struggling, and Burnley are only slightly better. A draw is a distinct possibility."
       },
       "overUnder": {
         "prediction": "Under 2.5 Goals",
         "probability": 60,
-        "analysis": "Both teams have struggled for goals recently, and a low-scoring game is expected."
+        "analysis": "Both teams' recent form suggests a low-scoring match is likely."
       },
       "bothTeamsToScore": {
         "prediction": "Yes",
         "probability": 55,
-        "analysis": "Both defences have been shaky, so both teams have a good chance of scoring."
+        "analysis": "Both teams have shown some ability to score but also concede, making a BTTS outcome plausible."
+      }
+    },
+    {
+      "match": "Sunderland AFC v Arsenal FC",
+      "potentialScore": "0-3",
+      "result": {
+        "prediction": "Arsenal FC Win",
+        "probability": 75,
+        "analysis": "Arsenal are top of the league and in excellent form. Sunderland are mid-table, and Arsenal are the clear favorites."
+      },
+      "overUnder": {
+        "prediction": "Over 2.5 Goals",
+        "probability": 65,
+        "analysis": "Arsenal's attacking prowess and Sunderland's weaker defense suggest a high-scoring game."
+      },
+      "bothTeamsToScore": {
+        "prediction": "No",
+        "probability": 60,
+        "analysis": "Arsenal's strong defense makes it unlikely Sunderland will score."
+      }
+    },
+    {
+      "match": "Chelsea FC v Wolverhampton Wanderers FC",
+      "potentialScore": "2-0",
+      "result": {
+        "prediction": "Chelsea FC Win",
+        "probability": 65,
+        "analysis": "Chelsea are the strong favourite due to their better position in the league and Wolves poor performance."
+      },
+      "overUnder": {
+        "prediction": "Under 2.5 Goals",
+        "probability": 55,
+        "analysis": "Wolves have struggled to score goals this season"
+      },
+      "bothTeamsToScore": {
+        "prediction": "No",
+        "probability": 70,
+        "analysis": "Wolves have struggled to score goals this season."
+      }
+    },
+    {
+      "match": "Aston Villa FC v AFC Bournemouth",
+      "potentialScore": "1-1",
+      "result": {
+        "prediction": "Draw",
+        "probability": 40,
+        "analysis": "Both teams have similar records and points. A draw is a reasonable outcome."
+      },
+      "overUnder": {
+        "prediction": "Under 2.5 Goals",
+        "probability": 55,
+        "analysis": "Aston Villa haven't been scoring many goals. "
+      },
+      "bothTeamsToScore": {
+        "prediction": "Yes",
+        "probability": 55,
+        "analysis": "A score draw seems likely."
+      }
+    },
+    {
+      "match": "Crystal Palace FC v Brighton & Hove Albion FC",
+      "potentialScore": "1-1",
+      "result": {
+        "prediction": "Draw",
+        "probability": 40,
+        "analysis": "Crystal Palace and Brighton are closely matched in the table and points. A draw is a likely outcome."
+      },
+      "overUnder": {
+        "prediction": "Under 2.5 Goals",
+        "probability": 60,
+        "analysis": "Crystal Palace have a strong defense"
+      },
+      "bothTeamsToScore": {
+        "prediction": "Yes",
+        "probability": 50,
+        "analysis": "Both teams are capable of scoring."
+      }
+    },
+    {
+      "match": "Brentford FC v Newcastle United FC",
+      "potentialScore": "1-0",
+      "result": {
+        "prediction": "Brentford FC Win",
+        "probability": 45,
+        "analysis": "Brentford have a slight home advantage and Newcastle are poor away from home."
+      },
+      "overUnder": {
+        "prediction": "Under 2.5 Goals",
+        "probability": 65,
+        "analysis": "Brentford have a good defense."
+      },
+      "bothTeamsToScore": {
+        "prediction": "No",
+        "probability": 60,
+        "analysis": "Newcastle have struggled to score recently."
+      }
+    },
+    {
+      "match": "Nottingham Forest FC v Leeds United FC",
+      "potentialScore": "0-1",
+      "result": {
+        "prediction": "Leeds United FC Win",
+        "probability": 40,
+        "analysis": "Leeds are slight favourites due to Forest's poor form and position in the table."
+      },
+      "overUnder": {
+        "prediction": "Under 2.5 Goals",
+        "probability": 60,
+        "analysis": "Both teams have struggled to score goals this season."
+      },
+      "bothTeamsToScore": {
+        "prediction": "No",
+        "probability": 65,
+        "analysis": "Nottingham Forest's poor attacking record."
+      }
+    },
+    {
+      "match": "Manchester City FC v Liverpool FC",
+      "potentialScore": "2-2",
+      "result": {
+        "prediction": "Draw",
+        "probability": 35,
+        "analysis": "Both teams are strong attacking sides. A draw is a possible outcome given Liverpool's potential."
+      },
+      "overUnder": {
+        "prediction": "Over 2.5 Goals",
+        "probability": 70,
+        "analysis": "Both teams are known for their attacking power, suggesting a high-scoring match."
+      },
+      "bothTeamsToScore": {
+        "prediction": "Yes",
+        "probability": 75,
+        "analysis": "Given the attacking quality of both sides, it's highly likely both teams will find the net."
       }
     }
   ]
